@@ -25,7 +25,7 @@ namespace Pálfalvi_László___KPMG
         }
 
         public void makeNewExcel()
-        {/*
+        {
             string filePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\arfolyam-letoltes.xlsx";
             Excel.Workbook wb;
             if (File.Exists(filePath))
@@ -40,7 +40,7 @@ namespace Pálfalvi_László___KPMG
                 wb.Close();
                 MessageBox.Show("Az 'arfolyam-letoltes.xlsx' fájl létrehozta!");
             }
-*/
+
         }
 
         #region VSTO generated code
